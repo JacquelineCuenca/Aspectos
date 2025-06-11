@@ -43,6 +43,15 @@ public class Ventana {
         panel.add (blueButton);
         // Mostrar la ventana
         frame.setVisible(true);
+        
+        
+  
+        // Crear una etiqueta para mostrar el contador
+        JLabel counterLabel = new JLabel("Cambios de color: 0");
+        panel.add(counterLabel);
+
+        // Hacer accesible el JLabel desde el aspecto
+          AspectoContador.counterLabel = counterLabel;
 
     }
 	
