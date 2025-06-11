@@ -33,6 +33,17 @@ public class Ventana {
         
         redButton.addActionListener((ActionEvent e) -> panel.setBackground(Color.PINK));
         
+        //Define la acción del botón verde
+        greenButton.addActionListener((ActionEvent e) -> panel.setBackground(Color .GREEN));
+         // Definir la acción del botón Amarillo
+        blueButton.addActionListener((ActionEvent e) -> panel. setBackground(Color.YELLOW));
+        // Agregar los botones al panel
+        panel. add (redButton); 
+        panel. add (greenButton); 
+        panel.add (blueButton);
+        // Mostrar la ventana
+        frame.setVisible(true);
+
     }
 	
 }
