@@ -21,6 +21,7 @@ public class Ventana {
 
         // Crear un panel donde se colocarán los botones
         JPanel panel = new JPanel();
+        
         frame.add(panel); // Agregar el panel a la ventana
 
         
