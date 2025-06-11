@@ -23,7 +23,15 @@ public class Ventana {
         JPanel panel = new JPanel();
         
         frame.add(panel); // Agregar el panel a la ventana
-
+        
+        //Crear 3 botones
+        JButton redButton = new JButton("Rosado");
+        JButton greenButton = new JButton("Verde");
+        JButton blueButton = new JButton("Amarillo");
+        
+        //Definir que sucedera al hacer click en el botón Rosado
+        
+        redButton.addActionListener((ActionEvent e) -> panel.setBackground(Color.PINK));
         
     }
 	
